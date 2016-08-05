@@ -14,7 +14,11 @@
         android:id="@+id/m_TxtView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Hello World!" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:onClick="doMagic"/>
 
 </LinearLayout>

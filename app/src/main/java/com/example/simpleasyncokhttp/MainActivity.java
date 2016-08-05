@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         client.newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
-
+                Log.d(TAG, "onFailure: ");
             }
         //required with callback
             @Override
